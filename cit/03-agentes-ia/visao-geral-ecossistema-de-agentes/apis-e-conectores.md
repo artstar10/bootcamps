@@ -26,7 +26,7 @@ O vazamento de chaves de API é um dos erros mais comuns e perigosos, podendo ca
 ❌ **Bad Practice (RISCO):**
 ```python
 # NUNCA faça hardcode de credenciais no código
-api_key = 'sk-12345abcdef...' 
+api_key = 'chave_ficticia_exemplo...' 
 ```
 *Problema:* Se esse código for para o GitHub (commit), bots maliciosos roubam a chave em segundos.
 
